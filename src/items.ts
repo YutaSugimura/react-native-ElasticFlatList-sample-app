@@ -48,6 +48,51 @@ export const ITEMS = [
     name: 'Blastoise',
     img: URI + '/009.png',
   },
+  {
+    no: '010',
+    name: 'Caterpie',
+    img: URI + '/010.png',
+  },
+  {
+    no: '011',
+    name: 'Metapod',
+    img: URI + '/011.png',
+  },
+  {
+    no: '012',
+    name: 'Butterfree',
+    img: URI + '/012.png',
+  },
+  {
+    no: '013',
+    name: 'Weedle',
+    img: URI + '/013.png',
+  },
+  {
+    no: '014',
+    name: 'Kakuna',
+    img: URI + '/014.png',
+  },
+  {
+    no: '015',
+    name: 'Beedrill',
+    img: URI + '/015.png',
+  },
+  {
+    no: '016',
+    name: 'Pidgey',
+    img: URI + '/016.png',
+  },
+  {
+    no: '017',
+    name: 'Pidgeotto',
+    img: URI + '/017.png',
+  },
+  {
+    no: '018',
+    name: 'Pidgeot',
+    img: URI + '/018.png',
+  },
 ];
 
 export type Item = typeof ITEMS[number];

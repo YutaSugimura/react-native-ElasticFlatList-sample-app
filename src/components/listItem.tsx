@@ -38,8 +38,6 @@ export const ListItem: React.FC<Props> = ({
     ],
   }));
 
-  console.log(item.img);
-
   return (
     <Animated.View key={index} style={[animatedElasticStyles, styles.wrapper]}>
       <View style={styles.container}>
