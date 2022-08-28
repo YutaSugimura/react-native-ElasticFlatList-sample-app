@@ -36,7 +36,9 @@ export const List: React.FC = () => {
 
   const onScroll = useAnimatedScrollHandler({
     onScroll: event => {
-      scrollOffset.value = event.contentOffset.y;
+      if (event.contentOffset.y > 0) {
+        scrollOffset.value = event.contentOffset.y;
+      }
     },
   });
 
