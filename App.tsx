@@ -24,7 +24,10 @@ const App: FC = () => {
   return (
     <SafeAreaProvider>
       <SafeAreaView style={backgroundStyle}>
-        <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+        <StatusBar
+          barStyle={isDarkMode ? 'light-content' : 'dark-content'}
+          backgroundColor={backgroundStyle.backgroundColor}
+        />
 
         <List />
       </SafeAreaView>
